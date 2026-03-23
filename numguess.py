@@ -8,9 +8,9 @@ def numguess():
             guess=int(input("enter a number (1-100):"))
             attempts+=1
             if guess<number:
-                print("its lower tahan the number 📉 enter greater number")
+                print("its lower than the number 📉 enter greater number")
             elif guess>number:
-                print("it's greater then the number 📈 enter smaller number")
+                print("it's greater than the number 📈 enter smaller number")
             else:
                 print(f"🎉 correct! you guessed in {attempts} attempts.")
                 break
