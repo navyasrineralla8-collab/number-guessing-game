@@ -1,6 +1,6 @@
 import random
 def numguess():
-    print("🎮 welcome to number gussing game")
+    print("🎮 welcome to number guessing game")
     number=random.randint(1,100)
     attempts=0
     while True:
