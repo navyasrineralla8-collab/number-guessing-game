@@ -9,6 +9,8 @@ This is a simple number guessing game built using Python.
   - Too high 📈
   - Too low 📉
 - The game ends when the correct number is guessed
+- it have 5 chances to guess the game if the person did't guess the currect number in 5 chances the person will lose the game
+  
 
 ## 🛠️ Features
 - Random number generation
