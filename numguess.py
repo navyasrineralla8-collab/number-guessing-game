@@ -6,7 +6,7 @@ def numguess():
     attempts=5
     while attempts>0:
         try:
-            print("guess any number:")
+            
             guess=int(input("enter a number (1-100):"))        
             if guess<number:
                 print("its lower than the number 📉 enter greater number")
