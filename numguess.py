@@ -16,8 +16,8 @@ def numguess():
                 print("it's greater than the number 📈 enter smaller number")
                 
             else:
-                print(f"🎉 correct! you guessed in {attempts} attempts.")               
-                break
+                print(f"🎉 correct! you guessed in {10-attempts} attempts.")               
+                return
             print(f"you have {attempts} attempts to guess the correct number")
             attempts=attempts-1
         except:
